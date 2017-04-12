@@ -1,7 +1,12 @@
-[![npm Version](https://img.shields.io/npm/v/gulp-jest-jspm.svg)](https://www.npmjs.com/package/gulp-jest-jspm) 
-[![CircleCI](https://circleci.com/gh/yoavniran/gulp-jest-jspm/tree/master.svg?style=svg)](https://circleci.com/gh/yoavniran/gulp-jest-jspm/tree/master)
+# gulp-jest-jspm-es5
 
-# gulp-jest-jspm
+### CREDIT
+This library is a backport of (https://github.com/yoavniran/gulp-jest-jspm) because I needed it on older versions of NodeJS that didn't
+support some of the newer ES6 syntax that was being used. If you don't run an older version of Node it probably makes more sense to use
+that version of the library.
+
+-------
+
 
 Gulp plugin for running Jest tests on JSPM/SystemJS apps
 
@@ -19,14 +24,14 @@ This is where this plugin comes in, it augments the [moduleDirectories ](https:/
 Install: 
 
 ```bash
-$ npm install --save-dev gulp-jest-jspm jest-cli
+$ npm install --save-dev gulp-jest-jspm-es5 jest-cli
 ```
 > (note that jest-cli is a peer-dependency and is required to be installed as well)
  
 In your gulpfile, require it:
 
 ```javascript
-	const gulpJestJspm = require("gulp-jest-jspm");
+	const gulpJestJspm = require("gulp-jest-jspm-es5");
 ```
 
 This plugin internally calls ([gulp-jest](https://www.npmjs.com/package/gulp-jest)) so you don't need to install it.
@@ -138,14 +143,7 @@ gulp.task("jest", () => {
 
 > alternatively, you can use [jest-jspm](https://www.npmjs.com/package/jest-jspm) directly from your gulp file. Which is basically what this package does.
 
-## Change Log
-
-### 1.0.0
-
-* moved config generate to separate package: jest-jspm
-* allow depending on Jest-CLI >=18.0.1 (meaning also 19)
-
 
 ## License
 
-[![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/about/) Yoav Niran
+[![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/about/) Jeremy Battle
