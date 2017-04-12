@@ -21,7 +21,13 @@
     "test",
     "build"
   ],
-  "author": "Jeremy Battle",
+  "author": "Yoav Niran",
+  "contributors": [
+    {
+      "name": "Jeremy Battle",
+      "email": "battlejj@gmail.com"
+    }
+  ],
   "license": "WTFPL",
   "dependencies": {
     "gulp-jest": "^1.0.0",
