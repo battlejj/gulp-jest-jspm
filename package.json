@@ -1,6 +1,6 @@
 {
   "name": "gulp-jest-jspm-es5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp plugin for running Jest tests on JSPM/SystemJS apps in older versions of node",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   "dependencies": {
     "gulp-jest": "^1.0.0",
     "jest-cli": ">=18.0.1",
-    "jest-jspm": "^0.1.0",
+    "jest-jspm-es5": "^0.1.2",
     "through2": "^2.0.3"
   },
   "devDependencies": {

@@ -147,3 +147,7 @@ gulp.task("jest", () => {
 ## License
 
 [![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png)](http://www.wtfpl.net/about/) Jeremy Battle
+
+## Changelog
+### 1.0.1
+Using `jest-jspm-es5` now instead of `jest-jspm` for compatibility issues.

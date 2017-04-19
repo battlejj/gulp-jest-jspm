@@ -2,7 +2,7 @@
 
 import through from "through2";
 import gulpJest from "gulp-jest";
-import jestJspm from "jest-jspm";
+import jestJspm from "jest-jspm-es5";
 
 const makeJestConfig = (basePath, options) =>
 	jestJspm(basePath, options);
