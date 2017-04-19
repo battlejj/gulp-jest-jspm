@@ -151,3 +151,6 @@ gulp.task("jest", () => {
 ## Changelog
 ### 1.0.1
 Using `jest-jspm-es5` now instead of `jest-jspm` for compatibility issues.
+
+### 1.0.2
+Bug fix for bad export
